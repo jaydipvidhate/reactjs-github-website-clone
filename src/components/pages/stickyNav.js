@@ -42,7 +42,7 @@ const StickyNav = () => {
               textDecoration: "none",
               color: COLORS.black,
             }}
-            className="active"
+            className="navlinksbtn active"
             href="#code"
           >
             Code
@@ -55,6 +55,7 @@ const StickyNav = () => {
               textDecoration: "none",
               color: COLORS.black,
             }}
+            className="navlinksbtn"
             href="#collaborate"
           >
             Collaborate
@@ -66,8 +67,9 @@ const StickyNav = () => {
               textDecoration: "none",
               color: COLORS.black,
             }}
+            className="navlinksbtn"
             href="#develop"
-          >
+            >
             Develop
           </a>
           <a
@@ -77,8 +79,9 @@ const StickyNav = () => {
               textDecoration: "none",
               color: COLORS.black,
             }}
+            className="navlinksbtn"
             href="#automate"
-          >
+            >
             Automate
           </a>
           <a
@@ -89,7 +92,8 @@ const StickyNav = () => {
               color: COLORS.black,
             }}
             href="#secure"
-          >
+            className="navlinksbtn"
+            >
             Secure
           </a>
           <a
@@ -99,6 +103,7 @@ const StickyNav = () => {
               textDecoration: "none",
               color: COLORS.black,
             }}
+            className="navlinksbtn"
             href="#community"
           >
             Community

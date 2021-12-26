@@ -45,13 +45,7 @@ function App() {
       <div
         className="AppMobile"
         style={{
-          width: "100%",
-          height: "100vh",
-          flexDirection: "column",
-          justifyContent: "center",
-          alignItems: "center",
-          display: "flex",
-          padding: 35,
+          
         }}
       >
         <h1

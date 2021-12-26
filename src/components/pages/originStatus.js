@@ -484,7 +484,7 @@ const OriginStatus = () => {
               <img style={{}} src={Circle} alt="" />
             </div>
             <div data-aos="zoom-in"
-             data-aos-duration="2000">
+             data-aos-duration="250">
               <img
                 style={{ width: 260, borderRadius: 50 }}
                 src={gitmobile}

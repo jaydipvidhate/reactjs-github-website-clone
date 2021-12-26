@@ -11,6 +11,11 @@ html {
 .App {
   overflow-x: hidden;
 }
+.AppMobile{
+  display: none;
+  background-color: rebeccapurple;
+}
+
 
 @media (max-width: 1290px) {
   .App {
@@ -18,8 +23,24 @@ html {
   }
 }
 
+          /* height: "100vh", 
+          flexDirection: "column",
+          justifyContent: "center",
+          alignItems: "center",
+          display: "flex",
+          padding: 35,
+ */
+
 @media (max-width: 1290px) {
   .AppMobile {
+    display: block;
+    display: flex;
+    width: 100%;
+    height:100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 35;
     background-image: linear-gradient(
       to bottom right,
       #042a67,
@@ -65,12 +86,13 @@ html {
 nav a {
   transition: all 0.3s ease;
   opacity: 0.6;
+  border-bottom: 2px solid  transparent;
+  padding-bottom: 10px;
 }
 
 nav a:hover,
 .active {
   opacity: 1;
-  padding-bottom: 10px;
   border-bottom: 2px solid rgb(0, 132, 255);
 }
 
