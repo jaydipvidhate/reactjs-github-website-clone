@@ -1,52 +1,80 @@
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
- }
- 
-
- html{
-   scroll-behavior: smooth;
- }
-
-.App{
-  overflow-x: hidden; 
 }
 
- .container{
-   max-width: 1290px;
-   padding: 0 15px;
-   margin: 0 auto;
- }
- 
- .hero{
-   background-image: linear-gradient(to bottom right,#042A67,#081936,#05112c,#16112e,#471F49);
- }
- 
- .secondPage{
-   clip-path: ellipse(80% 100% at 50% 100%);
- }
+html {
+  scroll-behavior: smooth;
+}
 
- .secondPageBack{
-  background-image: linear-gradient(to  right,#06132b,#081936,#421f49,#2e1438,#471F49);
+.App {
+  overflow-x: hidden;
+}
 
- }
- 
-
-
-  nav a{
-    transition: all 0.3s ease;
-    opacity: 0.6;
+@media (max-width: 1290px) {
+  .App {
+    display: none;
   }
+}
 
- nav a:hover,
- .active{
+@media (max-width: 1290px) {
+  .AppMobile {
+    background-image: linear-gradient(
+      to bottom right,
+      #042a67,
+      #081936,
+      #05112c,
+      #16112e,
+      #471f49
+    );
+  }
+}
+.container {
+  max-width: 1290px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.hero {
+  background-image: linear-gradient(
+    to bottom right,
+    #042a67,
+    #081936,
+    #05112c,
+    #16112e,
+    #471f49
+  );
+}
+
+.secondPage {
+  clip-path: ellipse(80% 100% at 50% 100%);
+}
+
+.secondPageBack {
+  background-image: linear-gradient(
+    to right,
+    #06132b,
+    #081936,
+    #421f49,
+    #2e1438,
+    #471f49
+  );
+}
+
+nav a {
+  transition: all 0.3s ease;
+  opacity: 0.6;
+}
+
+nav a:hover,
+.active {
   opacity: 1;
   padding-bottom: 10px;
   border-bottom: 2px solid rgb(0, 132, 255);
- }
+}
 
-nav.activeClass{
+nav.activeClass {
   position: fixed;
   top: 0;
   left: 0;
@@ -56,54 +84,68 @@ nav.activeClass{
   box-shadow: 5px 15px 15px #81818138;
 }
 
-
-nav .btn{
+nav .btn {
   display: none;
 }
 
-nav.activeClass .btn{
+nav.activeClass .btn {
   display: block;
 }
 
-
-#code h1{
+#code h1 {
   /* color: linear-gradient(to  right,#5e0d61,#711e74,#891b8d,#9d47a0,#c96ccc); */
-  background: -webkit-linear-gradient(#c4f8ff,#a3f3ff,#79d0dd,#58e0f5,#35e7ff);
+  background: -webkit-linear-gradient(
+    #c4f8ff,
+    #a3f3ff,
+    #79d0dd,
+    #58e0f5,
+    #35e7ff
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-#codespaces h1 span{
+#codespaces h1 span {
   /* color: linear-gradient(to  right,#5e0d61,#711e74,#891b8d,#9d47a0,#c96ccc); */
-  background: -webkit-linear-gradient(#c4f8ff,#a3f3ff,#79d0dd,#58e0f5,#35e7ff);
+  background: -webkit-linear-gradient(
+    #c4f8ff,
+    #a3f3ff,
+    #79d0dd,
+    #58e0f5,
+    #35e7ff
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-
-
-#commits{
+#commits {
   box-shadow: 0px 1px 200px #c4f8ff83;
   -moz-box-shadow: 0px 1px 500px #c4f8ff;
   -webkit-box-shadow: -10px -10px 100px #c4f8ff38;
   -khtml-box-shadow: 0px 1px 500px #a095df80;
 }
 
-#gitcodes{
+#gitcodes {
   box-shadow: 5px 5px 55px #868686;
 }
 
-#codespace{
+#codespace {
   box-shadow: -20px -25px 105px #429fb6;
 }
 
-#readyText{
-  background: -webkit-linear-gradient(#9b3592,#b44dac,#a945c2,#813ab1,#593ab1);
+#readyText {
+  background: -webkit-linear-gradient(
+    #9b3592,
+    #b44dac,
+    #a945c2,
+    #813ab1,
+    #593ab1
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-.codeSpaceClass .codeSpaceImg img{
+.codeSpaceClass .codeSpaceImg img {
   display: block;
   position: absolute;
   width: 720px;
@@ -112,20 +154,19 @@ nav.activeClass .btn{
   top: 560px;
 }
 
-.codeSpaceClass .codeSpaceImg img.activeClass{
+.codeSpaceClass .codeSpaceImg img.activeClass {
   position: fixed;
   top: 170px;
   right: 20px;
 }
 
-
-#secure{
-  background-color:  #06132b;
+#secure {
+  background-color: #06132b;
   position: relative;
   padding-bottom: 200px;
 }
 
-#secure .halfCircle{
+#secure .halfCircle {
   position: absolute;
   top: 0;
   left: 0;
@@ -135,7 +176,7 @@ nav.activeClass .btn{
   clip-path: ellipse(55% 20% at 50% 0%);
 }
 
-.contactClass a{
+.contactClass a {
   text-decoration: none;
   color: black;
   letter-spacing: 1.5;
@@ -144,11 +185,11 @@ nav.activeClass .btn{
   font-size: 15px;
 }
 
-.contactClass a:hover{
+.contactClass a:hover {
   color: black;
   opacity: 1;
 }
-.navbarend a{
+.navbarend a {
   text-decoration: none;
   color: black;
   letter-spacing: 1.5;
@@ -157,7 +198,6 @@ nav.activeClass .btn{
   font-size: 12px;
 }
 
-.navbarend img{
+.navbarend img {
   width: 22px;
 }
-
