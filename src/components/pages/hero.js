@@ -9,6 +9,7 @@ const Hero = () => {
   return (
     <div
       className="hero"
+      id="hero"
       style={{ height: "105vh", paddingBottom: 30, position: "relative" }}
     >
       <nav
@@ -273,8 +274,8 @@ const Hero = () => {
         <img
           src={Globe}
           style={{
-            width: "50rem",
-            height: "40rem",
+            width: "45rem",
+            height: "35rem",
             position: "absolute",
             right: -100,
             top: "auto",
@@ -289,6 +290,7 @@ const Hero = () => {
           justifyContent: "space-between",
           height: "10%",
           paddingTop: 20,
+          marginTop: -80,
         }}
       >
         <div style={{ display: "flex" }}>
@@ -355,11 +357,11 @@ const Hero = () => {
         </div>
         <img
           style={{
-            width: 520,
-            height: 500,
+            width: 500,
+            height: 480,
             position: "absolute",
             right: 10,
-            bottom: -180,
+            bottom: -60,
             zIndex: 1,
           }}
           src={gitMan}
