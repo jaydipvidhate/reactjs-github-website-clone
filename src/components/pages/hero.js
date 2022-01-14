@@ -29,6 +29,7 @@ const Hero = () => {
                 fontWeight: 400,
                 color: COLORS.white,
                 marginLeft: 22,
+                cursor: "pointer",
               }}
             >
               Why GitHub?
@@ -45,6 +46,7 @@ const Hero = () => {
               fontWeight: 400,
               color: COLORS.white,
               marginLeft: 18,
+              cursor: "pointer",
             }}
           >
             Team
@@ -55,6 +57,7 @@ const Hero = () => {
               fontWeight: 400,
               color: COLORS.white,
               marginLeft: 18,
+              cursor: "pointer",
             }}
           >
             Enterprise
@@ -66,6 +69,7 @@ const Hero = () => {
                 fontWeight: 400,
                 color: COLORS.white,
                 marginLeft: 18,
+                cursor: "pointer",
               }}
             >
               Explore
@@ -81,6 +85,7 @@ const Hero = () => {
               fontSize: 16,
               fontWeight: 400,
               color: COLORS.white,
+              cursor: "pointer",
               marginLeft: 18,
             }}
           >
@@ -93,6 +98,7 @@ const Hero = () => {
                 fontWeight: 400,
                 color: COLORS.white,
                 marginLeft: 18,
+                cursor: "pointer",
               }}
             >
               Pricing
@@ -146,6 +152,7 @@ const Hero = () => {
               color: COLORS.white,
               marginLeft: 10,
               marginRight: 10,
+              cursor: "pointer",
             }}
           >
             Sign in
@@ -161,6 +168,7 @@ const Hero = () => {
               paddingTop: 8,
               paddingBottom: 8,
               borderRadius: 5,
+              cursor: "pointer",
             }}
           >
             <h5

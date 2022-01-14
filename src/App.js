@@ -14,12 +14,21 @@ import AutomateSection from "./components/pages/automateSection";
 import MakeContributionPage from "./components/pages/makeContributionPage";
 import Comunity from "./components/pages/comunity";
 import NavBarLast from "./components/pages/navBarLast";
+import logo from "../src/assets/logo.png";
 
 function App() {
   Aos.init();
   return (
     <>
       <div className="App">
+        <a
+          href="https://github.com/jaydipvidhate/reactjs-github-website-clone"
+          target="_blank"
+          className="sourceCode"
+        >
+          <img style={{ width: 32 }} src={logo} alt="" />
+          <p>Source Code</p>
+        </a>
         <Hero></Hero>
 
         <ContactScale></ContactScale>
@@ -42,12 +51,7 @@ function App() {
           <NavBarLast></NavBarLast>
         </div>
       </div>
-      <div
-        className="AppMobile"
-        style={{
-          
-        }}
-      >
+      <div className="AppMobile" style={{}}>
         <h1
           style={{
             color: "white",
